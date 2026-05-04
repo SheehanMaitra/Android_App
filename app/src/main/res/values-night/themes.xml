@@ -1,0 +1,16 @@
+<resources>
+    <style name="Theme.PhotosApp" parent="Theme.Material3.DayNight.NoActionBar">
+        <item name="colorPrimary">#86B5C8</item>
+        <item name="colorOnPrimary">#0F222A</item>
+        <item name="colorSecondary">#E09A6E</item>
+        <item name="colorOnSecondary">#23150F</item>
+        <item name="colorSurface">#252B2E</item>
+        <item name="colorOnSurface">#F5EFE8</item>
+        <item name="android:statusBarColor">#121719</item>
+        <item name="android:navigationBarColor">#1B2022</item>
+        <item name="android:windowBackground">#1B2022</item>
+        <item name="android:textColor">#F5EFE8</item>
+        <item name="android:colorBackground">#1B2022</item>
+    </style>
+</resources>
+

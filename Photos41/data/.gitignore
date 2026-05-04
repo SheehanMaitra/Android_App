@@ -1,0 +1,12 @@
+# Keep shipped stock assets, but ignore runtime serialization output.
+users.dat
+tagtypes.dat
+users/*.dat
+.DS_Store
+*/.DS_Store
+
+!stock/
+!stock/stock/
+!stock/stock/*.png
+!users/
+!users/.gitkeep

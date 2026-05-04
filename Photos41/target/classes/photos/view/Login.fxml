@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.VBox?>
+
+<VBox xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1"
+      fx:controller="photos.controller.LoginController"
+      spacing="14" alignment="CENTER" prefWidth="420" prefHeight="260">
+    <padding>
+        <Insets top="24" right="24" bottom="24" left="24"/>
+    </padding>
+
+    <Label text="Photos" style="-fx-font-size: 22px; -fx-font-weight: bold;"/>
+
+    <VBox spacing="8" maxWidth="280">
+        <Label text="Username"/>
+        <TextField fx:id="usernameField" promptText="admin, stock, or your username"/>
+    </VBox>
+
+    <HBox spacing="10" alignment="CENTER">
+        <Button text="Log In" onAction="#onLogin"/>
+        <Button text="Quit" onAction="#onQuit"/>
+    </HBox>
+
+    <Label fx:id="statusLabel" text="" wrapText="true" maxWidth="360"
+           style="-fx-text-fill: #b00020;"/>
+</VBox>
+

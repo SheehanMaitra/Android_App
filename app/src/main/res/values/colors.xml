@@ -1,0 +1,13 @@
+<resources>
+    <color name="photos_bg">#F4EFEA</color>
+    <color name="photos_surface">#FFFDF8</color>
+    <color name="photos_primary">#28536B</color>
+    <color name="photos_primary_dark">#183747</color>
+    <color name="photos_secondary">#C9724B</color>
+    <color name="photos_text">#1F2629</color>
+    <color name="photos_muted">#677276</color>
+    <color name="photos_border">#D9CFC4</color>
+    <color name="photos_selected">#DDEAE7</color>
+    <color name="white">#FFFFFF</color>
+</resources>
+

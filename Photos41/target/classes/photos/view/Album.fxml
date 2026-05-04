@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.ListView?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.BorderPane?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.VBox?>
+
+<BorderPane xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1"
+            fx:controller="photos.controller.AlbumController"
+            prefWidth="980" prefHeight="620">
+    <top>
+        <HBox spacing="10" alignment="CENTER_LEFT" BorderPane.alignment="CENTER">
+            <padding>
+                <Insets top="12" right="12" bottom="12" left="12"/>
+            </padding>
+            <Label fx:id="albumTitleLabel" text="Album" style="-fx-font-size: 18px; -fx-font-weight: bold;"/>
+            <HBox spacing="10" alignment="CENTER_RIGHT" HBox.hgrow="ALWAYS">
+                <Button text="Back to Albums" onAction="#onBack"/>
+                <Button text="Log Out" onAction="#onLogout"/>
+            </HBox>
+        </HBox>
+    </top>
+
+    <center>
+        <HBox spacing="14" BorderPane.alignment="CENTER">
+            <padding>
+                <Insets top="12" right="12" bottom="12" left="12"/>
+            </padding>
+
+            <VBox spacing="10" prefWidth="420" HBox.hgrow="ALWAYS">
+                <Label text="Photos (thumbnails + captions)" style="-fx-font-weight: bold;"/>
+                <ListView fx:id="photosListView" VBox.vgrow="ALWAYS"/>
+
+                <HBox spacing="10" alignment="CENTER_RIGHT">
+                    <Button text="Add Photo" onAction="#onAddPhoto"/>
+                    <Button text="Remove" onAction="#onRemovePhoto"/>
+                    <Button text="Caption" onAction="#onRecaption"/>
+                </HBox>
+            </VBox>
+
+            <VBox spacing="10" prefWidth="520" HBox.hgrow="ALWAYS">
+                <Label text="Selected Photo" style="-fx-font-weight: bold;"/>
+                <ImageView fx:id="photoImageView" fitWidth="480" fitHeight="320" preserveRatio="true" smooth="true"/>
+                <Label fx:id="captionLabel" text="Caption:" wrapText="true"/>
+                <Label fx:id="dateLabel" text="Date:"/>
+                <Label fx:id="tagsLabel" text="Tags:" wrapText="true"/>
+
+                <HBox spacing="10" alignment="CENTER_RIGHT">
+                    <Button text="Prev" onAction="#onPrev"/>
+                    <Button text="Next" onAction="#onNext"/>
+                </HBox>
+
+                <HBox spacing="10" alignment="CENTER_RIGHT">
+                    <Button text="Add Tag" onAction="#onAddTag"/>
+                    <Button text="Delete Tag" onAction="#onDeleteTag"/>
+                </HBox>
+
+                <HBox spacing="10" alignment="CENTER_RIGHT">
+                    <Button text="Copy To..." onAction="#onCopyTo"/>
+                    <Button text="Move To..." onAction="#onMoveTo"/>
+                </HBox>
+            </VBox>
+        </HBox>
+    </center>
+</BorderPane>
+

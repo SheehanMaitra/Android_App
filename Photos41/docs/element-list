@@ -1,0 +1,4 @@
+module:photos
+photos
+photos.controller
+photos.model

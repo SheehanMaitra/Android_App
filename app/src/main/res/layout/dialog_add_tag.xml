@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="8dp">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/tag_type"
+        android:textColor="@color/photos_primary"
+        android:textStyle="bold" />
+
+    <Spinner
+        android:id="@+id/spinnerTagType"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="6dp" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="12dp"
+        android:text="@string/tag_value"
+        android:textColor="@color/photos_primary"
+        android:textStyle="bold" />
+
+    <EditText
+        android:id="@+id/editTagValue"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="6dp"
+        android:hint="@string/tag_value_hint"
+        android:imeOptions="actionDone"
+        android:inputType="textCapWords"
+        android:minHeight="56dp"
+        android:padding="12dp" />
+
+</LinearLayout>
+

@@ -1,0 +1,17 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <style name="Theme.PhotosApp" parent="Theme.Material3.DayNight.NoActionBar">
+        <item name="colorPrimary">@color/photos_primary</item>
+        <item name="colorOnPrimary">@color/white</item>
+        <item name="colorSecondary">@color/photos_secondary</item>
+        <item name="colorOnSecondary">@color/white</item>
+        <item name="colorSurface">@color/photos_surface</item>
+        <item name="colorOnSurface">@color/photos_text</item>
+        <item name="android:statusBarColor">@color/photos_primary_dark</item>
+        <item name="android:navigationBarColor">@color/photos_bg</item>
+        <item name="android:windowBackground">@color/photos_bg</item>
+        <item name="android:textColor">@color/photos_text</item>
+        <item name="android:colorBackground">@color/photos_bg</item>
+        <item name="android:windowLightStatusBar" tools:targetApi="m">false</item>
+    </style>
+</resources>
+

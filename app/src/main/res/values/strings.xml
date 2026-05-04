@@ -1,0 +1,68 @@
+<resources>
+    <string name="app_name">Photos App</string>
+    <string name="home_title">Albums</string>
+    <string name="home_subtitle">Load past albums automatically, then create, open, rename, delete, or search.</string>
+    <string name="no_album_selected">Selected album: none</string>
+    <string name="selected_album">Selected album: %1$s</string>
+    <string name="empty_albums_message">No albums yet. Create one to get started.</string>
+    <string name="create_album">Create Album</string>
+    <string name="open_album">Open Album</string>
+    <string name="rename_album">Rename Album</string>
+    <string name="delete_album">Delete Album</string>
+    <string name="search_photos">Search Photos</string>
+    <string name="album_name_hint">Album name</string>
+    <string name="save">Save</string>
+    <string name="delete">Delete</string>
+    <string name="select_album_first">Select an album first.</string>
+    <string name="delete_album_confirm">Delete \"%1$s\"?</string>
+
+    <string name="album_screen_hint">Tap a photo to view it. Use the menu on each photo to move or remove it.</string>
+    <string name="album_empty_message">This album has no photos yet.</string>
+    <string name="photo_count_label">%1$d photos</string>
+    <string name="add_photo">Add Photo</string>
+    <string name="back_home">Back Home</string>
+    <string name="move_photo">Move Photo</string>
+    <string name="remove_photo">Remove Photo</string>
+    <string name="remove_photo_confirm">Remove \"%1$s\" from this album?</string>
+    <string name="remove">Remove</string>
+    <string name="move">Move</string>
+    <string name="select_target_album">Select a target album.</string>
+    <string name="no_other_albums">Create another album first so there is somewhere to move this photo.</string>
+    <string name="choose_target_album">Choose target album</string>
+    <string name="photo_actions">Photo actions</string>
+    <string name="view_photo">View Photo</string>
+
+    <string name="viewer_tags_label">Tags</string>
+    <string name="viewer_no_tags">No tags on this photo yet.</string>
+    <string name="photo_position_label">Photo %1$d of %2$d</string>
+    <string name="previous_photo">Previous</string>
+    <string name="next_photo">Next</string>
+    <string name="add_tag">Add Tag</string>
+    <string name="delete_tag">Delete Tag</string>
+    <string name="back_to_album">Back to Album</string>
+    <string name="tag_type">Tag type</string>
+    <string name="tag_value">Tag value</string>
+    <string name="tag_value_hint">Enter a name or place</string>
+    <string name="add">Add</string>
+    <string name="no_tags_to_delete">This photo has no tags to delete.</string>
+
+    <string name="search_title">Search Across Albums</string>
+    <string name="search_subtitle">Search by person and location tags with case-insensitive prefix matching.</string>
+    <string name="first_tag">First tag</string>
+    <string name="second_tag">Second tag</string>
+    <string name="second_tag_required">Enter a value for the second tag or turn that rule off.</string>
+    <string name="use_second_tag">Use a second tag rule</string>
+    <string name="match_all">AND</string>
+    <string name="match_any">OR</string>
+    <string name="run_search">Run Search</string>
+    <string name="clear_search">Clear</string>
+    <string name="search_results_count">%1$d matching photos</string>
+    <string name="empty_search_message">Search results will appear here.</string>
+    <string name="result_album_prefix">Album: %1$s</string>
+    <string name="result_tags_none">Tags: none</string>
+    <string name="result_tags_prefix">Tags: </string>
+
+    <string name="thumbnail_content_description">Photo thumbnail</string>
+    <string name="full_photo_content_description">Full photo</string>
+    <string name="photo_menu_content_description">More photo actions</string>
+</resources>

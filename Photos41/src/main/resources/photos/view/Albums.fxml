@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.ListView?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.VBox?>
+
+<VBox xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1"
+      fx:controller="photos.controller.AlbumsController"
+      spacing="12" prefWidth="820" prefHeight="520">
+    <padding>
+        <Insets top="16" right="16" bottom="16" left="16"/>
+    </padding>
+
+    <HBox spacing="10" alignment="CENTER_LEFT">
+        <Label fx:id="usernameLabel" text="User" style="-fx-font-size: 18px; -fx-font-weight: bold;"/>
+        <HBox spacing="10" alignment="CENTER_RIGHT" HBox.hgrow="ALWAYS">
+            <Button text="Search" onAction="#onSearch"/>
+            <Button text="Log Out" onAction="#onLogout"/>
+        </HBox>
+    </HBox>
+
+    <Label text="Albums (name • #photos • date range)" style="-fx-font-weight: bold;"/>
+    <ListView fx:id="albumsListView" VBox.vgrow="ALWAYS"/>
+
+    <HBox spacing="10" alignment="CENTER_RIGHT">
+        <Button text="Create" onAction="#onCreateAlbum"/>
+        <Button text="Rename" onAction="#onRenameAlbum"/>
+        <Button text="Delete" onAction="#onDeleteAlbum"/>
+        <Button text="Open" onAction="#onOpenAlbum"/>
+    </HBox>
+</VBox>
+
