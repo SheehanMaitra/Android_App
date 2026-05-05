@@ -25,14 +25,12 @@ This repository contains an Android Studio version of the Photos project, writte
 - Install an Android SDK for API 36 if your machine does not already have it.
 - Run on an emulator such as Pixel 6 / 1080 x 2400 / 420 dpi.
 
-No external image-loading library such as Picasso is used.
-
 ## Storage approach
 
 - Photo albums/tags are serialized to a file in the app's internal storage.
 - Selected images are stored as persisted document URIs, so the app can reopen them later.
 
-## AI usage note
+## AI Prompts Used
 
 
 1. "Help me set up an Android Studio project in Java using XML layouts and Kotlin DSL Gradle files."
@@ -49,5 +47,3 @@ No external image-loading library such as Picasso is used.
 12. "How can I add case-insensitive autocomplete for person/location tag values based on what was already entered before?"
 13. "Help me organize the Android code so the model/data logic is separate from the activities and adapters."
 14. "Can you help me clean up the XML layouts and make the screens easier to use on a phone-sized emulator?"
-
-
